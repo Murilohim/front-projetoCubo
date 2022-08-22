@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+<h1 align="center">:file_cabinet: Projeto Cubo - front end</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://cubo.network/assets/images/cubo.svg" width="200">
+</p>
 
-## Available Scripts
+## :memo: Descrição
+Projeto Full stack realizado como case no curso da Labenu. 
+Esse repositório conta com a parte de front end do projeto, no qual foi implementado usando a API construída pelo back, com dois métodos integrados para criação de usuário e consulta de dados. 
+O usuário consegue criar seu cadastro e sua participação através de um formulário, e ao mesmo tempo que insere essas informações, a tabela e gráfico do app se atualiza.
 
-In the project directory, you can run:
+## :books: Funcionalidades
+* <b>Página única</b>: Implementação do método POST em um formulário para cadastro de usuários na aplicação, e integração com um método GET para renderizar na tela
+esse novo cadastro, atraves de uma tabela e um gráfico pizza.
 
-### `npm start`
+## 🔗 Link do deploy
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Cubo](https://case-cubo-maryam.surge.sh/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :wrench: Tecnologias utilizadas
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### `npm test`
+- [Javascript](https://www.javascript.com/)
+- [React](https://pt-br.reactjs.org/)
+- [Axios](https://axios-http.com/)
+- [Styled Components](https://styled-components.com/)
+- [React Google Charts](https://www.react-google-charts.com/)
+- [React Router Dom](https://v5.reactrouter.com/web/guides/quick-start)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :rocket: Rodando o projeto
 
-### `npm run build`
+Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
+- Antes de começar, você irá precisar instalar o [Git](https://git-scm.com/), [NodeJS](https://nodejs.org/pt-br/download/) + [Visual Studio Code](https://code.visualstudio.com/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```# Versões mínimas ou superiores.
+$ node -v
+v12.19.0
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+$ npm -v
+6.14.5
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Para configurar, no GitBash digite os seguinte códigos:
 
-### `npm run eject`
+```# Clonar o repositório
+$ git clone "https://github.com/Murilohim/front-projetoCubo.git"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#Entrar no diretório
+$ cd ./front-projetoCubo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#Abrir projeto no VsCode ou com seu prompt de comando de preferência
+code . ||  cd ./front-projetoCubo (Passo acima) 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#Com o terminal aberto rodar o comando
+$ npm install (para instalar as dependências necessárias)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#Agora só rodar o projeto com o comando
+$ npm run start
 
-## Learn More
+#Pronto projeto abrirá em seu navegador padrão
+Agora é só testar em seu navegador!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :soon: Implementação futura
+* Criação de dois métodos adicionais: Deletar um usuário e consulta específica por usuário.
 
-### Code Splitting
+## :handshake: Colaboradores
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/murilohim">
+        <img src="https://avatars.githubusercontent.com/u/84817937?s=400&u=889026ba86ed2fc84b6a1719fa7fbed7b6289128&v=4" width="100px;" alt="Foto de Murilo Terenciani no GitHub"/><br>
+        <sub>
+          <b>Murilohim</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## :dart: Status do projeto
+🟢 Finalizado
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Imagens
+![image](https://user-images.githubusercontent.com/84817937/151995889-c9b0a74d-d6e7-42fc-b6c1-6a2b489155ef.png)
+![image](https://user-images.githubusercontent.com/84817937/151995921-976e3fda-a4cb-46a3-8e6a-543939ff4645.png)
