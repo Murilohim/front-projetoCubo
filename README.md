@@ -27,6 +27,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React Google Charts](https://www.react-google-charts.com/)
 - [React Router Dom](https://v5.reactrouter.com/web/guides/quick-start)
 
+## 🔗 Link do projeto-back
+
+- [Cubo-back](https://github.com/Murilohim/back-projetoCubo)
+
 ## :rocket: Rodando o projeto
 
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
