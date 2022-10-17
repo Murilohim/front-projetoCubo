@@ -45,7 +45,6 @@ $ npm -v
 ```
 
 - Para configurar, no GitBash digite os seguinte códigos:
-
 ```# Clonar o repositório
 $ git clone "https://github.com/Murilohim/front-projetoCubo.git"
 
