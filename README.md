@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet: Projeto Cubo - front end</h1>
+<h1 align="center">:file_cabinet: Projeto Cubo - front end version</h1>
 
 <p align="center">
   <img src="https://cubo.network/assets/images/cubo.svg" width="200">
